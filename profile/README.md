@@ -25,7 +25,7 @@ git clone git@github.com:enchentes-app-br/tokens.git
 
 docker compose \
     --project-directory ./tokens \
-    run --rm tokens npm install
+    run --rm install
 
 docker compose \
     --project-directory ./tokens \
@@ -37,7 +37,7 @@ git clone git@github.com:enchentes-app-br/donations.git
 
 docker compose \
     --project-directory ./donations \
-    run --rm donations npm install
+    run --rm install
 
 docker compose \
     --project-directory ./donations \
